@@ -71,13 +71,35 @@
     </div>
   </section>
   <!-------------------------home banner section  ------------------------->
-  <section class="banner">
+  <section class="banner" id="banner_background">
+    <div class="owl-carousel owl-theme" id="owl-carousel-banner">
+      <div class="item">
+        <div class="container">
+          <div class="row position-relative" style="height: 100vh;">
+            <div class="col-md-8 position-absolute" id="banner_text_side">
+              <h1 class="pb-3">Discount to days </h1>
+              <p>Steaming black elixir, aromatic embrace, awakening senses. Rich, robust flavor dances on taste buds. Morning ritual, comforting warmth,
+                revitalizing essence.</p>
+              <a href="" class="btn btn-primary">Shop now</a>
+            </div>
+            <div class="col-md-4 position-absolute" id="banner_img_side">
+              <img src="./Image/banner-cake1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        2
+      </div>
+    </div>
+  </section>
+  <!-- <section class="banner">
     <div class="container-fluid" id="banner_background">
       <div class="owl-carousel owl-theme" id="owl-carousel-banner">
         <div class="item">
-          <div class=" position-relative">
+          <div class="position-relative">
             <div class="position-absolute" id="banner_text">
-              <p class="text-dark fw-bold h4 mt-lg-5 mt-sm-5">Steaming black elixir, aromatic embrace, awakening senses. Rich, robust flavor dances on taste buds. Morning ritual, comforting warmth,
+              <p class="text-dark fw-bold h4">Steaming black elixir, aromatic embrace, awakening senses. Rich, robust flavor dances on taste buds. Morning ritual, comforting warmth,
                 revitalizing
                 essence.</p>
             </div>
@@ -89,9 +111,8 @@
         <div class="item">
           <div class=" position-relative">
             <div class="position-absolute" id="banner_text">
-              <p class="text-dark fw-bold h4 mt-lg-5 mt-sm-5">Decadent layers of rich chocolate cake, enrobed in velvety ganache. A symphony of cocoa delights, indulgence personified, every bite a
-                celebration of
-                deep, satisfying sweetness.
+              <p class="text-dark fw-bold h4">
+                Decadent layers of rich chocolate cake, enrobed in velvety ganache. A symphony of cocoa delights, indulgence personified, every bite a celebration of deep, satisfying sweetness.
               </p>
             </div>
             <div class=" position-absolute" id="banner_image">
@@ -102,11 +123,9 @@
         <div class="item">
           <div class=" position-relative">
             <div class="position-absolute" id="banner_text">
-              <p class="text-dark fw-bold h4 mt-lg-5 mt-sm-5">A heavenly strawberry cake, moist layers intertwining with velvety cream. Juicy strawberries burst with sweetness, creating a symphony of
-                flavors
-                that
-                captivate the senses in every
-                delightful and indulgent bite.</p>
+              <p class="text-dark fw-bold h4">
+                Delicious strawberry cake with moist layers, luscious strawberry filling, and creamy frosting, creating a sweet and indulgent dessert experience.
+              </p>
             </div>
             <div class=" position-absolute" id="banner_image">
               <img src="./Image/banner-cake2.png" class="img-fluid" alt="">
@@ -115,99 +134,106 @@
         </div>
       </div>
     </div>
-  </section>
-  <!------------------------- section  ------------------------->
+  </section> -->
+  <!-------------------------review  section  ------------------------->
   <section class="client_reviews">
     <div class="container-fluid">
       <div class="container py-5">
-        <div class="row">
-          <div class="col-md-5 col-lg-5">
+        <div class="row row-cols-1">
+          <div class="col-lg-5 mb-5">
             <div class="row">
-              <div class="col-md-12 col1 py-2">
-                <div class="row">
-                  <div class="col-md-3"> <!--RATING FOOD SIDE-->
-                    <img src="./Image/review1.png" alt="" width="80px" height="80px">
-                    <!-- <div class="container shipping_container">
-                      <div class="icon">
-                      </div>
-                    </div> -->
+              <div class="col-md-12 bg-danger py-2">
+                <div class="row row-cols-2 ">
+                  <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
+                    <div class="review-food-img">
+                      <img src="./Image/review1.png" alt="" width="100px">
+                    </div>
                   </div>
-                  <div class="col-md-9">
-                    <h3 class="my-0">Cappuccino</h3>
-                    <p class="my-0">Separated they live in. A small river named Duden flows</p>
-                    <div class="rating_star d-flex">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star-half-stroke"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
+                  <div class="col-md-8 col-sm-9 d-flex justify-content-center">
+                    <div class="food-name">
+                      <h2>Cappuccino</h2>
+                      <p class="text-muted">
+                        Espresso, steamed milk, frothy foam; cappuccino perfection in simplicity.
+                      </p>
+                      <div class="rating-star d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 col2 py-2">
-                <div class="row">
-                  <div class="col-md-3">
-                    <img src="./Image/review2.png" alt="" width="80px" height="80px">
-                    <!-- <div class="container shipping_container">
-                      <div class="icon">
-                        
-                      </div>
-                    </div> -->
+              <div class="col-md-12 py-2 bg-primary">
+                <div class="row row-cols-2 ">
+                  <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
+                    <div class="review-food-img">
+                      <img src="./Image/review2.png" alt="" width="100px">
+                    </div>
                   </div>
-                  <div class="col-md-9">
-                    <h3 class="my-0">Fresh Green Tea</h3>
-                    <p class="my-0">Separated they live in. A small river named Duden flows</p>
-                    <div class="rating_star d-flex">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star-half-stroke"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
+                  <div class="col-md-8 col-sm-9 d-flex justify-content-center">
+                    <div class="food-name">
+                      <h2>Green Tea</h2>
+                      <p class="text-muted">
+                        Espresso, steamed milk, frothy foam; cappuccino perfection in simplicity.
+                      </p>
+                      <div class="rating-star d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 col3 py-2">
-                <div class="row">
-                  <div class="col-md-3">
-                    <img src="./Image/review3.png" alt="" width="80px" height="80px">
-                    <!-- <div class="container shipping_container">
-                      <div class="icon">
-                      </div>
-                    </div> -->
+              <div class="col-md-12 bg-info py-2">
+                <div class="row row-cols-2 ">
+                  <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
+                    <div class="review-food-img">
+                      <img src="./Image/review3.png" alt="" width="100px">
+                    </div>
                   </div>
-                  <div class="col-md-9">
-                    <h3 class="my-0">Strawberries Cake</h3>
-                    <p class="my-0">Separated they live in. A small river named Duden flows</p>
-                    <div class="rating_star d-flex">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star-half-stroke"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
+                  <div class="col-md-8 col-sm-9 d-flex justify-content-center">
+                    <div class="food-name">
+                      <h2>Strawberry Cake</h2>
+                      <p class="text-muted">
+                        Espresso, steamed milk, frothy foam; cappuccino perfection in simplicity.
+                      </p>
+                      <div class="rating-star d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 col4 py-2">
-                <div class="row">
-                  <div class="col-md-3">
-                    <img src="./Image/review4.png" alt="" width="80px" height="80px">
-                    <!-- <div class="container shipping_container">
-                      <div class="icon">
-                      </div>
-                    </div> -->
+              <div class="col-md-12 bg-success py-2">
+                <div class="row row-cols-2 ">
+                  <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
+                    <div class="review-food-img">
+                      <img src="./Image/review4.png" alt="" width="100px">
+                    </div>
                   </div>
-                  <div class="col-md-9">
-                    <h3 class="my-0">Bread</h3>
-                    <p class="my-0">Separated they live in. A small river named Duden flows</p>
-                    <div class="rating_star d-flex">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star-half-stroke"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
+                  <div class="col-md-8 col-sm-9 d-flex justify-content-center">
+                    <div class="food-name">
+                      <h2>Bread</h2>
+                      <p class="text-muted">
+                        Espresso, steamed milk, frothy foam; cappuccino perfection in simplicity.
+                      </p>
+                      <div class="rating-star d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -220,7 +246,7 @@
             <div class="owl-carousel owl-theme" id="owl-carousel-review">
               <div class="item">
                 <div class="container p-0">
-                  <div class="review_profile mx-3">
+                  <div class="review_profile1 mx-3">
                     <div class="review_profile_symbol ">
                       <i class="fa-solid fa-quote-left"></i>
                     </div>
@@ -241,7 +267,7 @@
               </div>
               <div class="item">
                 <div class="container p-0">
-                  <div class="review_profile mx-3">
+                  <div class="review_profile2 mx-3">
                     <div class="review_profile_symbol ">
                       <i class="fa-solid fa-quote-left"></i>
                     </div>
@@ -262,7 +288,7 @@
               </div>
               <div class="item">
                 <div class="container p-0">
-                  <div class="review_profile mx-3">
+                  <div class="review_profile3 mx-3">
                     <div class="review_profile_symbol ">
                       <i class="fa-solid fa-quote-left"></i>
                     </div>
@@ -283,7 +309,7 @@
               </div>
               <div class="item">
                 <div class="container p-0">
-                  <div class="review_profile mx-3">
+                  <div class="review_profile4 mx-3">
                     <div class="review_profile_symbol ">
                       <i class="fa-solid fa-quote-left"></i>
                     </div>
@@ -304,7 +330,7 @@
               </div>
               <div class="item">
                 <div class="container p-0">
-                  <div class="review_profile mx-3">
+                  <div class="review_profile5 mx-3">
                     <div class="review_profile_symbol">
                       <i class="fa-solid fa-quote-left"></i>
                     </div>
