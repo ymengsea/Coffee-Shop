@@ -67,7 +67,22 @@
     background-color: #dbcc8f;
   }
 }
-
+@media only screen and (min-width: 1200px) {
+  #banner_text_side {
+    top: 30%;
+    left: 0%;
+    z-index: 1;
+  }
+  #banner_img_side {
+    top: 20%;
+    right: 0;
+  }
+  #banner_background {
+    width: 100%;
+    height: 100vh;
+    background-color: #dbcc8f;
+  }
+}
 /* ----------------------review section-----------------------  */
 .Review_img {
   border: #dbcc8f 2px solid;
