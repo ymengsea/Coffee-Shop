@@ -83,6 +83,38 @@
     background-color: #dbcc8f;
   }
 }
+/* -----------------------service------------------- */
+.service_container {
+  border-radius: 10px;
+}
+.overlay {
+  height: 0;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.button_service {
+  background-color: #dbcc8f;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.service_container:hover .button_service {
+  color: #dbcc8f;
+  background-color: white;
+  transition: all 0.9s;
+}
+.service_container:hover .button_service:hover {
+  color: #dbcc8f;
+  background-color: black;
+}
+.service_container:hover .overlay {
+  height: 100%;
+  background-color: #dbcc8f;
+}
 /* ----------------------review section-----------------------  */
 .Review_img {
   border: #dbcc8f 2px solid;
@@ -223,3 +255,4 @@
   border-radius: 50%;
   background-color: #dbcc8f;
 }
+/* animation  */

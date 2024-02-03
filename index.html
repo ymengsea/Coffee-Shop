@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="./Image/logo.png">
-  <title>Coffee&Cake</title>
+  <title style="font-family: 'Playball' , cursive;">Coffee&Cake</title>
   <!-- CSS link  -->
   <link rel="stylesheet" href="./css/index.css" />
   <!-- bootstrap link  -->
@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <!-- gallery link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <!-- aos animation link  -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <!-- wow animation  -->
+  <link rel="stylesheet" href="./node_modules/wow.js/css/libs/animate.css">
 </head>
 
 <body>
@@ -31,7 +35,7 @@
   <section class="navigation-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container" id="navbar">
-        <a class="navbar-brand fw-bold" href="#"><img src="./Image/logo.png" alt=""> Coffee&Cake</a>
+        <a class="navbar-brand fw-bold" href="#" style="font-family: 'Playball', cursive;"><img src="./Image/logo.png" alt=""> Coffee&Cake</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,10 +70,11 @@
             <li class="nav-item rounded">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Booking</a>
-            </li>
           </ul>
+          <div class="ps-lg-4 d-flex">
+            <div class="search">hello</div>
+            <div class="search ms-lg-5">Booking</div>
+          </div>
         </div>
       </div>
     </nav>
@@ -87,7 +92,7 @@
                 revitalizing essence.</p>
               <a href="" class="btn btn-primary">Shop now</a>
             </div>
-            <div class="col-md-4 position-absolute" id="banner_img_side">
+            <div class="col-md-4 position-absolute " id="banner_img_side">
               <img src="./Image/banner-cake1.png" class="img-fluid" alt="">
             </div>
           </div>
@@ -125,17 +130,80 @@
       </div>
     </div>
   </section>
+  <!-------------------------what we offer section  ------------------------->
+  <section>
+    <div class="container-fluid">
+      <h2 class="display-5 text-center" style="font-family: 'Playball', cursive;">Our services</h2>
+      <h4 class="text-center" style="font-family: 'Playball', cursive;">What we offer </h4>
+      <div class="container">
+        <div class="row g-1">
+          <div class="col-md-3 wow bounceInUp" data-wow-duration="0.4s">
+            <div class="container service_container text-center ">
+              <div class=" position-relative py-3">
+                <div class="overlay position-absolute"></div>
+                <div class="service_content">
+                  <img src="./Image/services1.png" class="py-3" alt="">
+                  <h4>Wedding Services</h4>
+                  <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</p>
+                  <a href="" class="button_service">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 wow bounceInUp" data-wow-duration="0.8s">
+            <div class="container service_container text-center ">
+              <div class=" position-relative py-3">
+                <div class="overlay position-absolute"></div>
+                <div class="service_content">
+                  <img src="./Image/services1.png" class="py-3" alt="">
+                  <h4>Corporate Catering</h4>
+                  <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</p>
+                  <a href="" class="button_service">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 wow bounceInUp" data-wow-duration="1.2s">
+            <div class="container service_container text-center ">
+              <div class=" position-relative py-3">
+                <div class="overlay position-absolute"></div>
+                <div class="service_content">
+                  <img src="./Image/services1.png" class="py-3" alt="">
+                  <h4>Home Delivery</h4>
+                  <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</p>
+                  <a href="" class="button_service">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 wow bounceInUp" data-wow-duration="1.6s">
+            <div class="container service_container text-center ">
+              <div class=" position-relative py-3">
+                <div class="overlay position-absolute"></div>
+                <div class="service_content">
+                  <img src="./Image/services1.png" class="py-3" alt="">
+                  <h4>Party service</h4>
+                  <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</p>
+                  <a href="" class="button_service">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!------------------------- product  section  ------------------------->
   <section class="mb-5">
     <div class="container text-center my-5 py-4">
-      <h2 class="display-5 text-center">Test our foods & enjoy <span><i class="fa-solid fa-face-smile-wink text-warning"></i></span></h2>
+      <h2 class="display-5 text-center" style="font-family: 'Playball', cursive;">Test our foods & enjoy <span><i class="fa-solid fa-face-smile-wink text-warning"></i></span></h2>
       <p class="text-center">Here are some our recommend testy drink and desert for you to enjoy , most of costumer are in love with them , have a good day with us </p>
     </div>
     <div class="container">
       <!-- ========= note :image use for this section is w = 261 ,h = 261 ========== -->
       <!-- row 1  -->
       <div class="row g-0">
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food1.png" class="card-img" alt="">
@@ -164,7 +232,7 @@
           </div>
         </div>
         <!-- ----  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="0.9s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food2.png" class="card-img" alt="">
@@ -193,7 +261,7 @@
           </div>
         </div>
         <!-- ----------  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="1.2s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food3.png" class="card-img" alt="">
@@ -222,7 +290,7 @@
           </div>
         </div>
         <!-- -----  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="1.5s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food4.png" class="card-img" alt="">
@@ -253,7 +321,7 @@
       </div>
       <!-- row 2  -->
       <div class="row g-0">
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="1.8s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food5.png" class="card-img" alt="">
@@ -282,7 +350,7 @@
           </div>
         </div>
         <!-- ----  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="2.1s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food6.png" class="card-img" alt="">
@@ -311,7 +379,7 @@
           </div>
         </div>
         <!-- ----------  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="2.4s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food7.png" class="card-img" alt="">
@@ -340,7 +408,7 @@
           </div>
         </div>
         <!-- -----  -->
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInUp" data-wow-duration="2.7s">
           <div class="card-box">
             <div class="food_card">
               <img src="./Image/food8.png" class="card-img" alt="">
@@ -373,9 +441,10 @@
   </section>
   <!------------------------- to day deal section  ------------------------->
   <section>
-    <div class="container">
+    <div class="container-fluid">
+      <div class="display-5 text-center wow fadeInUp pb-5" style="font-family: 'Playball', cursive;">New arrive </div>
       <div class="row">
-        <div class="col-md-4 py-4 px-4" style="background-color: rgb(73, 196, 25);">
+        <div class="col-md-4 py-4 px-4 wow bounceIn" style="background-color: rgb(73, 196, 25);">
           <div class="row">
             <div class="col-md-6">
               <h4>New flavor Coffee</h4>
@@ -387,7 +456,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 py-4 px-4" style="background-color: rgb(252, 200, 28);">
+        <div class="col-md-4 py-4 px-4  wow bounceIn" style="background-color: rgb(252, 200, 28);">
           <div class="row">
             <div class="col-md-6">
               <h4>New flavor cake</h4>
@@ -399,7 +468,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 py-4 px-4" style="background-color: rgb(111, 255, 154);">
+        <div class="col-md-4 py-4 px-4  wow bounceIn" style="background-color: rgb(111, 255, 154);">
           <div class="row">
             <div class="col-md-6">
               <h4>France bread</h4>
@@ -413,7 +482,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 py-4 px-4" style="background-color: rgb(59, 59, 253);">
+        <div class="col-md-6 py-4 px-4  wow bounceIn" style="background-color: rgb(59, 59, 253);">
           <div class="row">
             <div class="col-md-6">
               <h4>New flavor Coffee</h4>
@@ -421,11 +490,11 @@
               <a href="#" class="btn btn-dark btn-sm">Buy now </a>
             </div>
             <div class="col-md-6">
-              <img src="./Image/food1.png" alt="" class="img-fluid">
+              <img src="./Image/food0.png" alt="" class="img-fluid">
             </div>
           </div>
         </div>
-        <div class="col-md-4 py-4 px-4" style="background-color: rgb(243, 37, 37);">
+        <div class="col-md-4 py-4 px-4  wow bounceIn" style="background-color: rgb(243, 37, 37);">
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-6">
               <h4>New flavor Coffee</h4>
@@ -437,7 +506,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 py-4 px-4 d-flex justify-content-center align-items-center" style="background-color: rgb(245, 245, 245);">
+        <div class="col-md-2 py-4 px-4 d-flex justify-content-center align-items-center  wow bounceIn" style="background-color: rgb(245, 245, 245);">
           <div class="container">
             <p class=" h2 text-uppercase fw-bolder">and much, much more...</p>
             <a href="#"><i class="fa-solid fa-face-smile" style="color: #DBCC8F; font-size: 30px;"></i></a>
@@ -445,21 +514,23 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
   <!-------------------------About us section  ------------------------->
   <section>
     <div class="container mt-5">
-      <div class="display-5 text-center">About us</div>
+      <div class="display-5 text-center wow fadeInUp" style="font-family: 'Playball', cursive;">About us</div>
+      <div class="row d-flex">
+
+      </div>
       <div class="row">
         <div class="col-md-6">
           <div class="row">
             <div class="col-md-12">
               <div class="row">
-                <div class="col-md-6 d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                   <img src="./Image/banner-cake1.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 d-flex align-items-center">
+                <div class="col-md-6 d-flex align-items-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                   <div class="container p-0 m-0">
                     <h2>chocolate cake </h2>
                     <p class="text-muted ">
@@ -471,7 +542,7 @@
             </div>
             <div class="col-md-12">
               <div class="row flex-lg-row flex-column-reverse">
-                <div class="col-md-6 d-flex align-items-center">
+                <div class="col-md-6 d-flex align-items-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
                   <div class="container p-0 m-0">
                     <h2>chocolate cake </h2>
                     <p class="text-muted ">
@@ -479,14 +550,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
                   <img src="./Image/banner-cake2.png" class="img-fluid" alt="">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 d-flex align-items-center">
+        <div class="col-md-6 d-flex align-items-center wow fadeInRight">
           <div class="container px-5">
             <h4 class="py-4"> We believe in working and offer you such a good flavor of our coffe and cake</h4>
             <p>Passionate about crafting exquisite coffee, delectable cakes, and artisanal bread. Our dedication to quality ingredients and meticulous preparation ensures a delightful experience for
@@ -499,15 +570,15 @@
   </section>
   <!-------------------------review  section  ------------------------->
   <section class="client_reviews">
-    <div class="container text-center my-5">
-      <h2 class="display-5 text-center">Costumer reviews</h2>
+    <div class="container-fluid text-center my-5  ">
+      <h2 class="display-5 text-center" style="font-family: 'Playball', cursive;">Costumer reviews</h2>
     </div>
     <div class="container-fluid">
       <div class="container py-5">
         <div class="row row-cols-1">
           <div class="col-lg-5 mb-5">
             <div class="row">
-              <div class="col-md-12 bg-danger py-2">
+              <div class="col-md-12 bg-danger py-2 wow slideInLeft" data-wow-duration="0.6s">
                 <div class="row row-cols-2 ">
                   <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
                     <div class="review-food-img">
@@ -531,7 +602,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 py-2 bg-primary">
+              <div class="col-md-12 py-2 bg-primary wow slideInLeft" data-wow-duration="1s">
                 <div class="row row-cols-2 ">
                   <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
                     <div class="review-food-img">
@@ -555,7 +626,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 bg-info py-2">
+              <div class="col-md-12 bg-info py-2 wow slideInLeft" data-wow-duration="1.4s">
                 <div class="row row-cols-2 ">
                   <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
                     <div class="review-food-img">
@@ -579,7 +650,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 bg-success py-2">
+              <div class="col-md-12 bg-success py-2 wow slideInLeft" data-wow-duration="1.6s">
                 <div class="row row-cols-2 ">
                   <div class="col-md-4 col-sm-3 d-flex align-items-center justify-content-center">
                     <div class="review-food-img">
@@ -605,7 +676,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7 col-lg-7 ps-4"> <!--OUR COSTUMER SAYS SIDE-->
+          <div class="col-md-7 col-lg-7 ps-4 wow fadeInRightBig"> <!--OUR COSTUMER SAYS SIDE-->
             <h1 class="mb-4">Our satisfied customer says</h1>
             <p class="text-muted mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
             <div class="owl-carousel owl-theme" id="owl-carousel-review">
@@ -722,7 +793,7 @@
   </section>
   <!-------------------------Gallery of out shop section  ------------------------->
   <section class="Gallery_section">
-    <h2 class="display-5 text-center mb-5">photo of out shop</h2>
+    <h2 class="display-5 text-center mb-5" style="font-family: 'Playball', cursive;">photo of out shop</h2>
     <div class="container-fluid p-0">
       <div class="zoom-gallery">
         <div class="row g-0 text-center">
@@ -766,19 +837,16 @@
   <footer>
     <section>
       <div class="container-fluid bg-dark pt-5 position-relative p-0">
-        <button type="button" class="btn" id="btn-back-to-top">
-          <i class="fa-solid fa-chevron-up"></i>
-        </button>
-        <div class="container">
+        <div class="container px-5">
           <div class="row row-cols-1">
             <div class="col-md-3 text-white">
-              <p class="fw-bold text-uppercase">
+              <p class="fw-bold text-uppercase" style="font-family: 'Playball', cursive;">
                 Coffee&Cake
               </p>
               <p>
                 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
               </p>
-              <div class="footer-icon d-flex">
+              <div class="footer-icon d-flex my-4">
                 <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i class="fa-brands fa-twitter"></i></a></div>
                 <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i class="fa-brands fa-instagram"></i></a></div>
                 <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i class="fa-brands fa-facebook-f "></i></a></div>
@@ -817,9 +885,11 @@
                 HAVE A QUESTIONS?
               </p>
               <ul class="list-unstyled">
-                <li class="py-2"><a class="text-white text-decoration-none d-flex" href=""><i class="fa-solid fa-location-dot pe-3"></i>
+                <li class="py-2">
+                  <a class="text-white text-decoration-none d-flex" href=""><i class="fa-solid fa-location-dot pe-3"></i>
                     <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  </a></li>
+                  </a>
+                </li>
                 <li class="py-2"><a class="text-white text-decoration-none" href=""><i class="fa-solid fa-phone pe-3"></i>+2 234 345 456</a></li>
                 <li class="py-2"><a class="text-white text-decoration-none" href=""><i class="fa-solid fa-envelope pe-3"></i>info@shoko.com</a></li>
               </ul>
@@ -843,7 +913,14 @@
   <!-- gallery script  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- aos animation link  -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
   <!-- script link  -->
+  <!-- wow animation link  -->
+  <script src="./node_modules/wow.js/dist/wow.min.js"></script>
   <script src="./javascript/index.js"></script>
 </body>
 
