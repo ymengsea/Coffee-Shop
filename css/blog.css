@@ -1,0 +1,4 @@
+/*----------------- navbar style ------------------- */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
