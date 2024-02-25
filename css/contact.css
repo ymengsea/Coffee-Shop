@@ -2,3 +2,37 @@
 .nav-item:hover .dropdown-menu {
   display: block;
 }
+
+.info {
+  width: 255px;
+  height: 145px;
+}
+
+.contact_section {
+  background-color: #f8f9fa;
+}
+.error_page_side {
+  width: 540px;
+  height: 555px;
+  background-color: #e8eaed;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-control {
+  height: 52px;
+}
+
+#send_message_btn {
+  background-color: #dbcc8f;
+  color: white;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+#send_message_btn:hover {
+  background-color: white;
+  color: #dbcc8f;
+  border: #dbcc8f 1px solid;
+}

@@ -7,9 +7,9 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="../Image/logo.png">
-      <title style="font-family: 'Playball' , cursive;">About</title>
+      <title style="font-family: 'Playball' , cursive;">Cart</title>
       <!-- CSS link  -->
-      <link rel="stylesheet" href="../css/about.css" />
+      <link rel="stylesheet" href="../css/Cart.css" />
       <!-- bootstrap link  -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous" />
@@ -58,7 +58,7 @@
                                                       <a class="dropdown-item" href="./Cart.html">Cart</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="./Booking.html">booking</a>
+                                                      <a class="dropdown-item" href="./booking.html">booking</a>
                                                 </li>
                                           </ul>
                                     </li>
@@ -87,128 +87,128 @@
             </nav>
             </div>
       </section>
-      <!-- -----------------------about section ----------------------- -->
+      <!-- -----------------------Cart section ----------------------- -->
       <section>
-            <div class="">
-                  <div class="display-2 text-center pt-5 wow fadeInUp" style="font-family: 'Playball', cursive;">About us</div>
-                  <nav aria-label="breadcrumb" class="d-flex justify-content-center wow fadeInUp">
-                        <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="#" class="text-decoration-none h5" style="color: #DBCC8F;">Home</a></li>
-                              <li class="breadcrumb-item active h5" aria-current="page">About</li>
-                        </ol>
-                  </nav>
-            </div>
-            <div class="container py-5">
+            <div class="container my-5 pt-5 wow bounceInUp">
                   <div class="row">
-                        <div class="col-lg-6">
-                              <div class="container pb-5">
-                                    <div class="row d-flex align-items-center pt-5">
-                                          <div class="col-md-4 pb-5 wow bounceInUp" data-wow-duration="1.4s">
-                                                <div class="text-center py-4" style="background-color: #DBCC8F;">
-                                                      <div>
-                                                            <i class="fa-solid fa-user text-white" style="font-size: 50px;"></i>
-                                                      </div>
-                                                      <div class="countdow">
-                                                            <div class="counter" id="countUp3" style="font-size: 50px; font-weight: bolder;">0</div>
-                                                      </div>
-                                                      <div class="h4">Happy customers</div>
-                                                </div>
-                                          </div>
-                                          <div class="col-md-4 pb-5 wow bounceInUp" data-wow-duration="1.8s">
-                                                <div class="text-center py-4" style="background-color: #DBCC8F;">
-                                                      <div>
-                                                            <i class="fa-solid fa-check text-white" style="font-size: 50px;"></i>
-                                                      </div>
-                                                      <div class="countdow">
-                                                            <div class="counter" id="countUp2" style="font-size: 50px; font-weight: bolder;">0</div>
-                                                      </div>
-                                                      <div class="h4">Events completed</div>
-                                                </div>
-                                          </div>
-                                          <div class="col-md-4 pb-5 wow bounceInUp" data-wow-duration="2.12s">
-                                                <div class="text-center py-4" style="background-color: #DBCC8F;">
-                                                      <div>
-                                                            <i class="fa-solid fa-user text-white" style="font-size: 50px;"></i>
-                                                      </div>
-                                                      <div class="countdow">
-                                                            <div class="counter" id="countUp1" style="font-size: 50px; font-weight: bolder;">0</div>
-                                                      </div>
-                                                      <div class="h4">Clients Reviews</div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                        <div class="col-lg-6">
-                              <div class="container p-0 d-flex justify-content-center wow bounceInUp" data-wow-duration="1.4s">
-                                    <div class="position-relative">
-                                          <img src="../Image/gallery5.jpg" class="img-fluid" alt="">
-                                          <div class="position-absolute" style="top: 50%; left: 50%; transform: translate(-50%,-50%);">
-                                                <a class="popup-vimeo" href="https://vimeo.com/45830194">
-                                                      <div class="position-relative" style="width: 70px; height: 70px; background-color: #ffffffec; border-radius: 50%;">
-                                                            <i class="fa-solid fa-play position-absolute px-0 mx-0"
-                                                                  style="font-size: 35px; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #DBCC8F;"></i>
-                                                      </div>
-                                                </a>
-                                          </div>
-                                    </div>
-                              </div>
+                        <div class="col-md-12">
+                              <div class="container table_container">
+                                    <table>
+                                          <thead class="thead">
+                                                <tr class="text-center">
+                                                      <th></th>
+                                                      <th></th>
+                                                      <th>Product</th>
+                                                      <th>Price</th>
+                                                      <th>Quantity</th>
+                                                      <th>Total</th>
+                                                </tr>
+                                          </thead>
+                                          <tbody>
+                                                <tr class="text-center">
+                                                      <td class="remove_product">
+                                                            <div class="container mx-4">
+                                                                  <a href=""><i class="fa-solid fa-xmark text-dark px-2 py-2 rounded" style="font-size:10px;background-color: #DBCC8F;"></i></a>
+                                                            </div>
+                                                      </td>
+                                                      <td class="product_image">
+                                                            <div class="Product_img mx-5"></div>
+                                                      </td>
+                                                      <td class="product_title">
+                                                            <div class="product_title_container">
+                                                                  <h6>Chocolate cake </h6>
+                                                                  <p class="text-muted">Far far away, behind the word mountains, far from the countries</p>
+                                                            </div>
+                                                      </td>
+                                                      <td class="price">
+                                                            <p class="mx-4">$15.70</p>
+                                                      </td>
+                                                      <td class="quantity">
+                                                            <form action="#" class="mx-4">
+                                                                  <input type="text" class="text-center" value="1" min="1" max="100" style="height: 52px;">
+                                                            </form>
+                                                      </td>
+                                                      <td class="total_price">
+                                                            <p class="mx-4">$15.70</p>
+                                                      </td>
+                                                </tr>
+                                          </tbody>
+                                          <tbody>
+                                                <tr class="text-center">
+                                                      <td class="remove_product">
+                                                            <div class="container mx-4">
+                                                                  <a href=""><i class="fa-solid fa-xmark text-dark px-2 py-2 rounded" style="font-size:10px;background-color: #DBCC8F;"></i></a>
+                                                            </div>
+                                                      </td>
+                                                      <td class="product_image">
+                                                            <div class="Product_img mx-5"></div>
+                                                      </td>
+                                                      <td class="product_title">
+                                                            <div class="product_title_container">
+                                                                  <h6>Chocolate cake </h6>
+                                                                  <p class="text-muted">Far far away, behind the word mountains, far from the countries</p>
+                                                            </div>
+                                                      </td>
+                                                      <td class="price">
+                                                            <p class="mx-4">$15.70</p>
+                                                      </td>
+                                                      <td class="quantity">
+                                                            <form action="#" class="mx-4">
+                                                                  <input type="text" class="text-center" value="1" min="1" max="100" style="height: 52px;">
+                                                            </form>
+                                                      </td>
+                                                      <td class="total_price">
+                                                            <p class="mx-4">$15.70</p>
+                                                      </td>
+                                                </tr>
+                                          </tbody>
 
+                                    </table>
+                              </div>
                         </div>
                   </div>
             </div>
       </section>
+      <!-- end  cart section  -->
+
+      <!-- checkout section  -->
       <section>
-            <div class="container mt-5">
-                  <!-- <div class="display-5 text-center wow fadeInUp" style="font-family: 'Playball', cursive;">About us</div> -->
-                  <div class="row">
-                        <div class="col-md-6">
-                              <div class="row">
-                                    <div class="col-md-12">
-                                          <div class="row">
-                                                <div class="col-md-6 d-flex justify-content-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                                                      <img src="../Image/banner-cake1.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="col-md-6 d-flex align-items-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                                                      <div class="container p-0 m-0">
-                                                            <h2>chocolate cake </h2>
-                                                            <p class="text-muted ">
-                                                                  Passionate about crafting exquisite coffee, delectable cakes, and artisanal bread. Our dedication to quality ingredients
-                                                            </p>
-                                                      </div>
-                                                </div>
+            <div class="container wow bounceInUp" data-wow-duration="1.7s">
+                  <div class="row justify-content-start">
+                        <div class="col-md-6 col-lg-5">
+                              <div class="container border">
+                                    <div class="Receive">
+                                          <div class="title pt-3 pb-2">
+                                                <h5>CART TOTALS</h5>
                                           </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                          <div class="row flex-lg-row flex-md-row flex-column-reverse">
-                                                <div class="col-md-6 d-flex align-items-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-                                                      <div class="container p-0 m-0">
-                                                            <h2>chocolate cake </h2>
-                                                            <p class="text-muted ">
-                                                                  Passionate about crafting exquisite coffee, delectable cakes, and artisanal bread. Our dedication to quality ingredient
-                                                            </p>
-                                                      </div>
-                                                </div>
-                                                <div class="col-md-6 d-flex justify-content-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-                                                      <img src="../Image/banner-cake2.png" class="img-fluid" alt="">
-                                                </div>
+                                          <div class="d-flex justify-content-between py-2 text-muted">
+                                                <p>Subtotal</p>
+                                                <p>$20.60</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between py-2 text-muted">
+                                                <p>Delivery</p>
+                                                <p>$0.00</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between border-bottom py-2 text-muted">
+                                                <p>Discount</p>
+                                                <p>$3.00</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between pt-2 pb-3">
+                                                <p class="text-muted">TOTAL</p>
+                                                <p class="fw-bold">$17.60</p>
                                           </div>
                                     </div>
                               </div>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center wow fadeInRight">
-                              <div class="container px-lg-5 px-0">
-                                    <h4 class="py-4"> We believe in working and offer you such a good flavor of our coffe and cake</h4>
-                                    <p>Passionate about crafting exquisite coffee, delectable cakes, and artisanal bread. Our dedication to quality ingredients and meticulous preparation ensures a
-                                          delightful experience for
-                                          every customer.</p>
-                                    <a href="" class="btn btn-primary my-4">Read more <span><img src="../Image/" alt=""></span></a>
+                              <div class="container p-0 my-3">
+                                    <div class="checkout-btn d-flex align-items-center justify-content-center ">
+                                          <a class="Procces_btn" href="#">Procces to Checkout</a>
+                                    </div>
                               </div>
                         </div>
                   </div>
             </div>
       </section>
-      <!-- -----------------------footer section ----------------------- -->
+      <!------------------------- footer  section  ------------------------->
       <footer>
             <section>
                   <div class="container-fluid bg-dark pt-5 position-relative p-0">
@@ -300,7 +300,7 @@
       <!-- script link  -->
       <!-- wow animation link  -->
       <script src="../node_modules/wow.js/dist/wow.min.js"></script>
-      <script src="../javascript/about.js"></script>
+      <script src="../javascript/index.js"></script>
 </body>
 
 </html>

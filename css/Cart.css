@@ -2,18 +2,39 @@
 .nav-item:hover .dropdown-menu {
   display: block;
 }
-.firstName,
-.lastName {
-  height: 52px;
+table {
+  width: 100%;
 }
-.state_country {
-  height: 52px;
-  font-size: small;
+.thead {
+  background-color: #dbcc8f;
+  color: white;
+}
+.table_container {
+  overflow-x: scroll;
 }
 
-.bill_side {
-  height: 386px;
+th {
+  padding: 20px 10px;
+  font-weight: 400;
 }
+
+.Product_img {
+  background-image: url(../Image/food1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 150px;
+  margin: auto;
+}
+.product_title {
+  width: 300px;
+}
+
+.product_title_container {
+  width: 300px;
+}
+
 .Procces_btn {
   background-color: #dbcc8f;
   border: #dbcc8f 1px solid;

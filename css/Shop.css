@@ -1,0 +1,75 @@
+/*----------------- navbar style ------------------- */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+/* --------- */
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.collapsible.activeCollaps {
+  background-color: white;
+  color: #dbcc8f;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible.collapsible.activeCollaps::after {
+  color: #dbcc8f;
+}
+
+.activeCollaps:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  display: block;
+}
+/* product section  */
+.card-img {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.food_card:hover .card-img {
+  transform: scale(1.1);
+}
+/* Go to next page  */
+.page-link {
+  border-radius: 50%;
+  color: black !important;
+  background-color: white;
+}
+.page-item.active .page-link {
+  background-color: black !important;
+  border: none;
+  color: white !important;
+}
+.page-link:hover {
+  border-radius: 50%;
+  color: black;
+}
+.list_catagory {
+  color: black;
+  transition: all 0.4s;
+}
+.list_catagory:hover {
+  color: #dbcc8f;
+}

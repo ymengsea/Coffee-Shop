@@ -30,3 +30,10 @@
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+/* footer style  */
+.footer_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #dbcc8f;
+}

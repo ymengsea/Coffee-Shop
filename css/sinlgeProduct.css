@@ -1,0 +1,286 @@
+/*----------------- navbar style ------------------- */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.addtocartbtn {
+  background-color: black !important;
+  color: #efefef !important;
+  font-size: smaller;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+.addtocartbtn:hover {
+  background-color: #dbcc8f !important;
+  color: white !important;
+}
+.buynow {
+  border: 1px solid #dbcc8f !important;
+  background-color: #dbcc8f !important;
+  color: #efefef !important;
+  font-size: smaller;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+.buynow:hover {
+  background-color: white !important;
+  color: #dbcc8f !important;
+}
+.single_produt_img {
+  background-color: #fbfbfb;
+}
+.img-fluid {
+  width: 90%;
+}
+.NumberOfStar {
+  color: #dbcc8f;
+}
+.price {
+  font-size: 30px;
+}
+
+#Size_sellection {
+  height: 52px;
+  width: 30%;
+  text-align: center;
+}
+.form-select {
+  height: 40px;
+  width: 30%;
+  font-size: small;
+}
+.and_more_product,
+.container_Product_quntity {
+  width: 70%;
+}
+
+.addtocartbtn {
+  background-color: black;
+  color: #efefef;
+  font-size: smaller;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+.addtocartbtn:hover {
+  background-color: #dbcc8f;
+  color: white;
+}
+.buynow {
+  border: 1px solid #dbcc8f;
+  background-color: #dbcc8f;
+  color: #efefef;
+  font-size: smaller;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+.buynow:hover {
+  background-color: white;
+  color: #efefef;
+}
+/* ------tab carousel style  */
+#myTab {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+#home-tab,
+#profile-tab,
+#contact-tab {
+  border: none;
+  width: 366px;
+  background-color: #efefef;
+  margin: 10px 2px;
+  height: 111px;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 0%;
+  transition: all 0.5s;
+}
+#home-tab:hover {
+  background-color: #dbcc8f;
+}
+#profile-tab:hover {
+  background-color: #dbcc8f;
+}
+#contact-tab:hover {
+  background-color: #dbcc8f;
+}
+#home,
+#profile,
+#contact {
+  background-color: #efefef;
+  padding: 20px 15px;
+}
+#home-tab.active {
+  background-color: #dbcc8f;
+  border: none;
+  width: 366px;
+  margin: 10px 2px;
+  height: 111px;
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 0%;
+}
+#profile-tab.active {
+  background-color: #dbcc8f;
+  border: none;
+  width: 366px;
+  margin: 10px 2px;
+  height: 111px;
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 0%;
+}
+#contact-tab.active {
+  background-color: #dbcc8f;
+  border: none;
+  width: 366px;
+  margin: 10px 2px;
+  height: 111px;
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 0%;
+}
+
+.user_image {
+  background-image: url(../Image/person5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.user_image2 {
+  background-image: url(../Image/person4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.user_image3 {
+  background-image: url(../Image/person3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.userdetail {
+  width: 100%;
+  display: block;
+}
+.username,
+.rate {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* module image  */
+#myImg {
+  border-radius: 5px;
+  cursor: zoom-in;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: zoom-out;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 20%;
+  max-width: 700px;
+  cursor: zoom-out;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}

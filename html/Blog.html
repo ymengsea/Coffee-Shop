@@ -7,7 +7,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="../Image/logo.png">
-      <title style="font-family: 'Playball' , cursive;">About</title>
+      <title style="font-family: 'Playball' , cursive;">Blog</title>
       <!-- CSS link  -->
       <link rel="stylesheet" href="../css/blog.css" />
       <!-- bootstrap link  -->
@@ -35,44 +35,44 @@
       <section class="navigation-bar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                   <div class="container" id="navbar">
-                        <a class="navbar-brand fw-bold" href="#" style="font-family: 'Playball', cursive;"><img src="../Image/logo.png" alt=""> Coffee&Cake</a>
+                        <a class="navbar-brand fw-bold" href="../index.html" style="font-family: 'Playball', cursive;"><img src="../Image/logo.png" alt=""> Coffee&Cake</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar1">
                               <ul class="navbar-nav ms-md-auto">
                                     <li class="nav-item rounded">
-                                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                                     </li>
                                     <li class="nav-item dropdown rounded">
                                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
                                                       class="bi bi-person-fill"></i>Menu</a>
                                           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Shop</a>
+                                                      <a class="dropdown-item" href="./Shop.html">Shop</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Single product</a>
+                                                      <a class="dropdown-item" href="./SingleProduct.html">Single product</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Cart</a>
+                                                      <a class="dropdown-item" href="./Cart.html">Cart</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Checkout</a>
+                                                      <a class="dropdown-item" href="./Booking.html">booking</a>
                                                 </li>
                                           </ul>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">About</a>
+                                          <a class="nav-link" href="./About.html">About</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Blog</a>
+                                          <a class="nav-link" href="./Blog.html">Blog</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Contact</a>
+                                          <a class="nav-link" href="./Contact.html">Contact</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Booking<i class="fa-solid fa-bag-shopping"></i></a>
+                                          <a class="nav-link" href="./Booking.html">Booking<i class="fa-solid fa-bag-shopping"></i></a>
                                     </li>
                               </ul>
                               <!-- <div class="search">Booking</div> -->
@@ -87,9 +87,451 @@
             </nav>
             </div>
       </section>
+      <!-- ------------------------------ -->
       <section>
+            <div class="container mt-5 pt-5">
+                  <div class="row flex-column-reverse flex-lg-row ">
+                        <div class="col-lg-4 wow bounceInLeft">
+                              <div class="row d-block">
+                                    <div class="col-lg-12 py-3">
+                                          <form action="">
+                                                <div class="form-group d-flex  search_container" style="height: 52px; width: 100%;">
+                                                      <input type="text" id="search_btn" class="form-control" placeholder="TYPE A KEYWORD AND HIT ENTER">
+                                                      <span class="p-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="col-lg-12">
+                                          <div class="header py-3 mt-5">
+                                                <span class="fw-bold">CATEGORIES</span>
+                                          </div>
+                                          <div class="category_list">
+                                                <div class="d-flex justify-content-between border-bottom py-2">
+                                                      <a href="#" class="text-body text-decoration-none">Shoes</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between border-bottom py-2">
+                                                      <a href="#" class="text-body text-decoration-none">Men's Shoes</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between border-bottom py-2">
+                                                      <a href="#" class="text-body text-decoration-none">Women's</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between border-bottom py-2">
+                                                      <a href="#" class="text-body text-decoration-none">Accessories</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between border-bottom py-2">
+                                                      <a href="#" class="text-body text-decoration-none">Sports</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between py-2 mb-5">
+                                                      <a href="#" class="text-body text-decoration-none">Lifestyle</a>
+                                                      <span>(12)</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                          <div class="header py-4">
+                                                <span class="fw-bold">RECENT BLOG</span>
+                                          </div>
+                                          <div class="blog">
+                                                <div class="box">
+                                                      <div class="blog_image">
+                                                            <div class="row">
+                                                                  <div class="col-md-12 d-flex py-2">
+                                                                        <div class="recent-blog-img">
+                                                                              <img src="../Image/banner-cake1.png" alt="" width="80px" height="78px">
+                                                                        </div>
+                                                                        <div class="text px-4">
+                                                                              <div class="">
+                                                                                    <h5 class="fw-normal text_descrebtion">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                                              </div>
+                                                                              <div class="d-flex">
+                                                                                    <div class="date d-flex">
+                                                                                          <span><i class="fa-regular fa-calendar-days text-muted px-1" style="font-size: 13px;"></i></span>
+                                                                                          <p class="text-muted">April 27 ,2024</p>
+                                                                                    </div>
+                                                                                    <div class="admin d-flex mx-1">
+                                                                                          <span><i class="fa-solid fa-user text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">Admin</p>
+                                                                                    </div>
+                                                                                    <div class="comment d-flex">
+                                                                                          <span><i class="fa-solid fa-message text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">19</p>
+                                                                                    </div>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
 
+                                                                  <div class="col-md-12 d-flex py-2">
+                                                                        <div class="recent-blog-img">
+                                                                              <img src="../Image/banner-cake2.png" width=" 80px" height="78px">
+                                                                        </div>
+                                                                        <div class="text px-4">
+                                                                              <div class="">
+                                                                                    <h5 class="fw-normal text_descrebtion">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                                              </div>
+                                                                              <div class="d-flex">
+                                                                                    <div class="date d-flex">
+                                                                                          <span><i class="fa-regular fa-calendar-days text-muted px-1" style="font-size: 13px;"></i></span>
+                                                                                          <p class="text-muted">April 27 ,2024</p>
+                                                                                    </div>
+                                                                                    <div class="admin d-flex mx-1">
+                                                                                          <span><i class="fa-solid fa-user text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">Admin</p>
+                                                                                    </div>
+                                                                                    <div class="comment d-flex">
+                                                                                          <span><i class="fa-solid fa-message text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">19</p>
+                                                                                    </div>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+
+                                                                  <div class="col-md-12 d-flex py-2 mb-5">
+                                                                        <div class="recent-blog-img">
+                                                                              <img src="../Image/banner-coffeecup.png" alt="" width="80px" height="78px">
+                                                                        </div>
+                                                                        <div class="text px-4">
+                                                                              <div class="">
+                                                                                    <h5 class="fw-normal text_descrebtion">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                                              </div>
+                                                                              <div class="d-flex">
+                                                                                    <div class="date d-flex">
+                                                                                          <span><i class="fa-regular fa-calendar-days text-muted px-1" style="font-size: 13px;"></i></span>
+                                                                                          <p class="text-muted">April 27 ,2024</p>
+                                                                                    </div>
+                                                                                    <div class="admin d-flex mx-1">
+                                                                                          <span><i class="fa-solid fa-user text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">Admin</p>
+                                                                                    </div>
+                                                                                    <div class="comment d-flex">
+                                                                                          <span><i class="fa-solid fa-message text-muted px-1" style="font-size: 12px;"></i></span>
+                                                                                          <p class="text-muted">19</p>
+                                                                                    </div>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-12 mb-5">
+                                          <div class="container">
+                                                <div class="header py-4">
+                                                      <span class="fw-bold">TAG CLOUD</span>
+                                                </div>
+                                                <div class="buttom-list mt-3 mb-5">
+                                                      <div class="mb-3">
+                                                            <a href="#" class="tag_cloud_btn">Shop</a>
+                                                            <a href="#" class="tag_cloud_btn">Product</a>
+                                                            <a href="#" class="tag_cloud_btn">Shirt</a>
+                                                            <a href="#" class="tag_cloud_btn">Jeans</a>
+                                                      </div>
+                                                      <div class="">
+                                                            <a href="#" class="tag_cloud_btn">Shoes</a>
+                                                            <a href="#" class="tag_cloud_btn">Dress</a>
+                                                            <a href="#" class="tag_cloud_btn">Coats</a>
+                                                            <a href="#" class="tag_cloud_btn">Jumpsuit</a>
+                                                      </div>
+                                                </div>
+
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-12 mt-5">
+                                          <div class="container">
+                                                <div class="header my-4">
+                                                      <span class="fw-bold">PARAGRAPH</span>
+                                                </div>
+                                                <div class="paragraph">
+                                                      <p class="text-muted">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt
+                                                            placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!
+                                                      </p>
+                                                </div>
+
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-8 wow bounceInRight">
+                              <div class="row">
+                                    <div class="col-md-5 col-lg-5 mb-5">
+                                          <div class="img"
+                                                style="background-image: url(../Image/banner-cake1.png); background-repeat: no-repeat; background-size:cover;background-position:center; height:250px ;width:100%; background-position: top;">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                          <div class="text-container">
+                                                <div class="date d-flex text-muted">
+                                                      <p>APRIL 9,2019 </p>
+                                                      <p class="px-1">ADMIN</p>
+                                                      <Span><i class="fa-solid fa-message px-2" style="font-size: 13px;"></i>3</Span>
+                                                </div>
+                                                <div class="">
+                                                      <h5 class="fw-normal text_descrebtion py-2">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                </div>
+                                                <div class="text-muted">
+                                                      <p>
+                                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                                      </p>
+                                                </div>
+                                                <div class="button">
+                                                      <a class="btn read_more_btn " href="#">Read more</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-5 col-lg-5 mb-5 mt-3">
+                                          <div class="img"
+                                                style="background-image: url(../Image/banner-cake2.png); background-repeat: no-repeat; background-size:cover;background-position:center; height:250px ;width:100%; background-position: top;">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                          <div class="text-container">
+                                                <div class="date d-flex text-muted">
+                                                      <p>APRIL 9,2019 </p>
+                                                      <p class="px-1">ADMIN</p>
+                                                      <Span><i class="fa-solid fa-message px-2" style="font-size: 13px;"></i>3</Span>
+                                                </div>
+                                                <div class="">
+                                                      <h5 class="fw-normal text_descrebtion py-2">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                </div>
+                                                <div class="text-muted">
+                                                      <p>
+                                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                                      </p>
+                                                </div>
+                                                <div class="button">
+                                                      <a class="btn read_more_btn " href="#">Read more</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-5 col-lg-5 mb-5 mt-3">
+                                          <div class="img"
+                                                style="background-image: url(../Image/banner-coffeecup.png); background-repeat: no-repeat; background-size:cover;background-position:center; height:250px ;width:100%; background-position: top;">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                          <div class="text-container">
+                                                <div class="date d-flex text-muted">
+                                                      <p>APRIL 9,2019 </p>
+                                                      <p class="px-1">ADMIN</p>
+                                                      <Span><i class="fa-solid fa-message px-2" style="font-size: 13px;"></i>3</Span>
+                                                </div>
+                                                <div class="">
+                                                      <h5 class="fw-normal text_descrebtion py-2">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                </div>
+                                                <div class="text-muted">
+                                                      <p>
+                                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                                      </p>
+                                                </div>
+                                                <div class="button">
+                                                      <a class="btn read_more_btn " href="#">Read more</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-5 col-lg-5 mb-5 mt-3">
+                                          <div class="img"
+                                                style="background-image: url(../Image/food0.png); background-repeat: no-repeat; background-size:cover;background-position:center; height:250px ;width:100%; background-position: top;">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                          <div class="text-container">
+                                                <div class="date d-flex text-muted">
+                                                      <p>APRIL 9,2019 </p>
+                                                      <p class="px-1">ADMIN</p>
+                                                      <Span><i class="fa-solid fa-message px-2" style="font-size: 13px;"></i>3</Span>
+                                                </div>
+                                                <div class="">
+                                                      <h5 class="fw-normal text_descrebtion py-2">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                </div>
+                                                <div class="text-muted">
+                                                      <p>
+                                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                                      </p>
+                                                </div>
+                                                <div class="button">
+                                                      <a class="btn read_more_btn " href="#">Read more</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-5 col-lg-5 mb-5 mt-3">
+                                          <div class="img"
+                                                style="background-image: url(../Image/food1.png); background-repeat: no-repeat; background-size:cover;background-position:center; height:250px ;width:100%; background-position: top;">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                          <div class="text-container">
+                                                <div class="date d-flex text-muted">
+                                                      <p>APRIL 9,2019 </p>
+                                                      <p class="px-1">ADMIN</p>
+                                                      <Span><i class="fa-solid fa-message px-2" style="font-size: 13px;"></i>3</Span>
+                                                </div>
+                                                <div class="">
+                                                      <h5 class="fw-normal text_descrebtion py-2">Even the all-powerful Pointing has no control about the blind texts</h5>
+                                                </div>
+                                                <div class="text-muted">
+                                                      <p>
+                                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                                      </p>
+                                                </div>
+                                                <div class="button">
+                                                      <a class="btn read_more_btn " href="#">Read more</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="pagination d-flex justify-content-center">
+                        <div>
+                              <nav aria-label="...">
+                                    <ul class="pagination">
+                                          <li class="page-item disabled">
+                                                <span class="page-link rounded-circle"><i class="fa-solid fa-chevron-left"></i></span>
+                                          </li>
+                                          <li class="page-item active"><a class="page-link mx-1" href="#">1</a></li>
+                                          <li class="page-item"><a class="page-link mx-1" href="#">2</a></li>
+                                          <li class="page-item"><a class="page-link mx-1" href="#">3</a></li>
+                                          <li class="page-item"><a class="page-link mx-1" href="#">4</a></li>
+                                          <li class="page-item"><a class="page-link mx-1" href="#">5</a></li>
+                                          <li class="page-item">
+                                                <a class="page-link rounded-circle" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                                          </li>
+                                    </ul>
+                              </nav>
+                        </div>
+                  </div>
+            </div>
       </section>
+      <!-------------------------Gallery of out shop section  ------------------------->
+      <section class="Gallery_section">
+            <h2 class="display-5 text-center mb-5" style="font-family: 'Playball', cursive;">photo of out shop</h2>
+            <div class="container-fluid p-0">
+                  <div class="zoom-gallery">
+                        <div class="row g-0 text-center">
+                              <div class="col-md-4">
+                                    <a href="../Image/gallery1.jpg" class="img-fluid">
+                                          <img src="../Image/gallery1.jpg" class="img-fluid" style="border: #DBCC8F 2px solid; width:100vw; height: 248px;">
+                                    </a>
+                              </div>
+                              <div class="col-md-4">
+                                    <a href="../Image/gallery2.jpg" class="img-fluid">
+                                          <img src="../Image/gallery2.jpg" class="img-fluid" style="border: #DBCC8F 2px solid; width:100vw; height: 248px;">
+                                    </a>
+                              </div>
+                              <div class="col-md-4">
+                                    <a href="../Image/gallery3.jpg" class="img-fluid">
+                                          <img src="../Image/gallery3.jpg" class="img-fluid" style="border: #DBCC8F 2px solid; width:100vw; height: 248px;">
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="row g-0 text-center">
+                              <div class="col-md-3">
+                                    <a href="../Image/gallery4.jpg" class="img-fluid">
+                                          <img src="../Image/gallery4.jpg" class="img-fluid" style="border: #DBCC8F 2px solid; width:100vw;  height: 248px;">
+                                    </a>
+                              </div>
+                              <div class="col-md-6">
+                                    <a href="../Image/gallery5.jpg" class="img-fluid">
+                                          <img src="../Image/gallery5.jpg" class="img-fluid " style="border: #DBCC8F 2px solid; width:100vw; height:248px; ">
+                                    </a>
+                              </div>
+                              <div class=" col-md-3">
+                                    <a href="../Image/gallery6.jpg" class="img-fluid">
+                                          <img src="../Image/gallery6.jpg" class="img-fluid" style="border: #DBCC8F 2px solid; width:100vw;  height: 248px;">
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <!------------------------- footer  section  ------------------------->
+      <footer>
+            <section>
+                  <div class="container-fluid bg-dark pt-5 position-relative p-0">
+                        <div class="container px-5">
+                              <div class="row row-cols-1">
+                                    <div class="col-md-3 text-white">
+                                          <p class="fw-bold text-uppercase" style="font-family: 'Playball', cursive;">
+                                                Coffee&Cake
+                                          </p>
+                                          <p>
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                                          </p>
+                                          <div class="footer-icon d-flex my-4">
+                                                <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i class="fa-brands fa-twitter"></i></a>
+                                                </div>
+                                                <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i class="fa-brands fa-instagram"></i></a>
+                                                </div>
+                                                <div class="footer_icon d-flex align-items-center justify-content-center mx-1"><a href="" class="text-white "><i
+                                                                  class="fa-brands fa-facebook-f "></i></a></div>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-3 text-white">
+                                          <p class="fw-bold">
+                                                MENU
+                                          </p>
+                                          <ul class="list-unstyled">
+                                                <li class="py-2"><a href="" class="text-white text-decoration-none">Shop</a></li>
+                                                <li class="py-2"><a href="" class="text-white text-decoration-none py-3">About</a></li>
+                                                <li class="py-2"><a href="" class="text-white text-decoration-none py-3">Journal</a></li>
+                                                <li class="py-2"><a href="" class="text-white text-decoration-none py-3">Contact Us</a></li>
+                                          </ul>
+                                    </div>
+                                    <div class="col-md-3 text-white">
+                                          <p class="fw-bold">
+                                                HELP
+                                          </p>
+                                          <div class="row row-cols-2 d-flex">
+                                                <div class="col-md-8">
+                                                      <ul class="list-unstyled">
+                                                            <li class="py-2"><a href="" class="text-white text-decoration-none">Shipping Information</a></li>
+                                                            <li class="py-2"><a href="" class="text-white text-decoration-none">Returns & Exchange</a></li>
+                                                            <li class="py-2"><a href="" class="text-white text-decoration-none">Terms & Conditions</a></li>
+                                                            <li class="py-2"><a href="" class="text-white text-decoration-none">Privacy Policy</a></li>
+                                                      </ul>
+                                                </div>
+                                                <div class="col-md-4">
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-3 text-white">
+                                          <p class="fw-bold">
+                                                HAVE A QUESTIONS?
+                                          </p>
+                                          <ul class="list-unstyled">
+                                                <li class="py-2">
+                                                      <a class="text-white text-decoration-none d-flex" href=""><i class="fa-solid fa-location-dot pe-3"></i>
+                                                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                                                      </a>
+                                                </li>
+                                                <li class="py-2"><a class="text-white text-decoration-none" href=""><i class="fa-solid fa-phone pe-3"></i>+2 234 345 456</a></li>
+                                                <li class="py-2"><a class="text-white text-decoration-none" href=""><i class="fa-solid fa-envelope pe-3"></i>info@shoko.com</a></li>
+                                          </ul>
+                                    </div>
+                              </div>
+                              <div class="container text-center">
+                                    <p class="text-white pb-5">Copyright ©2024 All rights reserved | This website is made with <span><i class="fa-solid fa-heart"></i></span> <span
+                                                style="color: #DBCC8F;"> by @ymengsea</span>
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </footer>
       <!-- jquary link  -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <!-- bootstrap script  -->
@@ -107,7 +549,7 @@
       </script> -->
       <!-- script link  -->
       <!-- wow animation link  -->
-      <script src="./node_modules/wow.js/dist/wow.min.js"></script>
+      <script src="../node_modules/wow.js/dist/wow.min.js"></script>
       <script src="../javascript/index.js"></script>
 </body>
 

@@ -7,7 +7,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="../Image/logo.png">
-      <title style="font-family: 'Playball' , cursive;">About</title>
+      <title style="font-family: 'Playball' , cursive;">Booking</title>
       <!-- CSS link  -->
       <link rel="stylesheet" href="../css/booking.css" />
       <!-- bootstrap link  -->
@@ -35,44 +35,44 @@
       <section class="navigation-bar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                   <div class="container" id="navbar">
-                        <a class="navbar-brand fw-bold" href="#" style="font-family: 'Playball', cursive;"><img src="../Image/logo.png" alt=""> Coffee&Cake</a>
+                        <a class="navbar-brand fw-bold" href="../index.html" style="font-family: 'Playball', cursive;"><img src="../Image/logo.png" alt=""> Coffee&Cake</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar1">
                               <ul class="navbar-nav ms-md-auto">
                                     <li class="nav-item rounded">
-                                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                                     </li>
                                     <li class="nav-item dropdown rounded">
                                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
                                                       class="bi bi-person-fill"></i>Menu</a>
                                           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Shop</a>
+                                                      <a class="dropdown-item" href="./Shop.html">Shop</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Single product</a>
+                                                      <a class="dropdown-item" href="./SingleProduct.html">Single product</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Cart</a>
+                                                      <a class="dropdown-item" href="./Cart.html">Cart</a>
                                                 </li>
                                                 <li>
-                                                      <a class="dropdown-item" href="#">Checkout</a>
+                                                      <a class="dropdown-item" href="./Booking.html">booking</a>
                                                 </li>
                                           </ul>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">About</a>
+                                          <a class="nav-link" href="./About.html">About</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Blog</a>
+                                          <a class="nav-link" href="./Blog.html">Blog</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Contact</a>
+                                          <a class="nav-link" href="./Contact.html">Contact</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                          <a class="nav-link" href="#">Booking<i class="fa-solid fa-bag-shopping"></i></a>
+                                          <a class="nav-link" href="./Booking.html">Booking<i class="fa-solid fa-bag-shopping"></i></a>
                                     </li>
                               </ul>
                               <!-- <div class="search">Booking</div> -->
@@ -87,8 +87,183 @@
             </nav>
             </div>
       </section>
+      <!-- BILLING DETAILS section  -->
       <section>
+            <div class="container ">
+                  <div class="row d-flex justify-content-center">
+                        <div class="col-md-12 col-lg-10 wow fadeInLeft">
+                              <h3 class="">BOOKING DETAILS</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-10 wow fadeInLeft">
+                              <div class="row">
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Firt Name</label>
+                                                      <input name="Name" type="text" class="form-control firstName ">
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Last Name</label>
+                                                      <input name="Name" type="text" class="form-control lastName">
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-12 col-lg-10 wow fadeInLeft">
+                              <div class="container px-0 py-3">
+                                    <label for="" class="pb-2">Tables</label>
+                                    <select class="form-select form-select-lg rounded-0 state_country" aria-label=".form-select-lg example">
+                                          <option value="1">Single</option>
+                                          <option value="2">Couple</option>
+                                          <option value="3">Friend</option>
+                                          <option value="4">Family</option>
+                                          <option value="4">Costum</option>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="col-md-12 col-lg-10 wow fadeInLeft">
+                              <label for="" class="">Table position</label>
+                        </div>
+                        <div class="col-md-12 col-lg-10 wow fadeInLeft">
+                              <div class="row">
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <input name="Name" type="text" class="form-control firstName mt-2" placeholder="Please comfirm table position or Table name">
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <input name="Name" type="text" class="form-control lastName mt-2" placeholder="Distribute">
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
 
+                        <div class="col-md-12 col-lg-10 py-3 wow fadeInLeft">
+                              <div class="row">
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Due Date</label>
+                                                      <input name="Name" type="text" class="form-control firstName">
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Time</label>
+                                                      <input name="Name" type="text" class="form-control lastName">
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-10 py-3 wow fadeInLeft">
+                              <div class="row">
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Phone</label>
+                                                      <input name="Name" type="text" class="form-control firstName">
+                                                </div>
+                                          </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <label for="" class="pb-2">Email Address</label>
+                                                      <input name="Name" type="text" class="form-control lastName">
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-10 py-3 d-flex wow fadeInLeft">
+                              <form action="#">
+                                    <div class="form-group d-flex">
+                                          <input type="radio" name="radio_option" class="me-1"><label for="" class="me-4">Create an Account?</label>
+                                          <input type="radio" name="radio_option" class="me-1"><label for="">Ship to different address</label>
+                                    </div>
+                              </form>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <!-- end bill detail section  -->
+
+      <!-- payment section  -->
+      <section>
+            <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-5 wow fadeInLeft">
+                              <div class="container border bill_side">
+                                    <div class="Receive">
+                                          <div class="title pt-3 pb-2">
+                                                <h5>TOTALS</h5>
+                                          </div>
+                                          <div class="d-flex justify-content-between py-2 text-muted">
+                                                <p>Subtotal</p>
+                                                <p>$20.60</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between py-2 text-muted">
+                                                <p>Delivery</p>
+                                                <p>$0.00</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between border-bottom py-2 text-muted">
+                                                <p>Discount</p>
+                                                <p>$3.00</p>
+                                          </div>
+                                          <div class="d-flex justify-content-between pt-2 pb-3">
+                                                <p class="text-muted">TOTAL</p>
+                                                <p class="fw-bold">$17.60</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 mb-5 wow fadeInRight">
+                              <div class="container">
+                                    <div class="Receive">
+                                          <div class="title pt-3 pb-2">
+                                                <h5>PAYMENT METHOD</h5>
+                                          </div>
+                                          <form action="#">
+                                                <div class="form-group">
+                                                      <div class="">
+                                                            <input type="radio" name="radio_option" class="me-1 my-4"><label for="" class="me-4">Direct Bank Tranfer</label>
+                                                      </div>
+                                                      <div class="">
+                                                            <input type="radio" name="radio_option" class="me-1 my-4"><label for="" class="me-4">Check Payment</label>
+                                                      </div>
+                                                      <div class="">
+                                                            <input type="radio" name="radio_option" class="me-1 my-4"><label for="" class="me-4">Paypal</label>
+                                                      </div>
+                                                      <div class="">
+                                                            <input type="checkbox" class="me-1 my-4"><label for="" class="me-4">I have read and accept the terms and conditions</label>
+                                                      </div>
+                                                </div>
+                                          </form>
+                                          <div class="container p-0 my-3">
+                                                <div class="checkout-btn d-flex align-items-center justify-content-center ">
+                                                      <a class="Procces_btn" href="#">Procces to booking</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
       </section>
       <!-- jquary link  -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -107,7 +282,7 @@
       </script> -->
       <!-- script link  -->
       <!-- wow animation link  -->
-      <script src="./node_modules/wow.js/dist/wow.min.js"></script>
+      <script src="../node_modules/wow.js/dist/wow.min.js"></script>
       <script src="../javascript/index.js"></script>
 </body>
 
